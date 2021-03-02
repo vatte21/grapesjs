@@ -113,6 +113,8 @@ import defaults from './config/config';
 import EditorModel from './model/Editor';
 import EditorView from './view/EditorView';
 
+console.log('$$$$$$$$$');
+
 export default (config = {}) => {
   const c = {
     ...defaults,
